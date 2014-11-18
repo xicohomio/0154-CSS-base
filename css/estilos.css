@@ -13,4 +13,20 @@ body h1.org{
 
 h1{
 	text-transform: uppercase;
+	font-style: italic;
+	font-weight: 100;
+	font-family: monospace;
+	letter-spacing: 20px;
+	line-height: 160px;
+	text-align: right;
+	text-decoration: line-through;
+	color: red;
+}
+
+div.caixa{
+	border: 1px solid red;
+	width: 50%;
+	margin: 50px;
+	padding: 30px;
+	float: left;
 }
