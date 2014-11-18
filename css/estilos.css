@@ -2,3 +2,15 @@ h1.org {
 	color: pink;
 
 }
+
+body h1.org{
+	color: fuchsia;
+}
+
+body h1.org{
+	color: brown !important;
+}
+
+h1{
+	text-transform: uppercase;
+}
