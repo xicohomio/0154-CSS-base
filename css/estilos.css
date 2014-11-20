@@ -12,27 +12,30 @@ body h1.org{
 }
 
 h1{
-	text-transform: uppercase;
-	font-style: italic;
-	font-weight: 100;
-	font-family: monospace;
-	letter-spacing: 20px;
-	line-height: 160px;
-	text-align: right;
-	text-decoration: line-through;
-	color: red;
-}
-
-div.caixa{
-	border: 1px dashed red;
-	width: 50%;
-	margin: 50px;
-	padding: 30px;
-	float: left;
+	text-transform: uppercase;/*transforma o texto em maiusculas*/
+	font-style: italic;/*mete em italica*/
+	font-weight: 100;/*expessura fina- vai de 100 a 900*/
+	font-family: monospace;/*tipo de letra*/
+	letter-spacing: 20px;/*espaçamento entre as letras*/
+	line-height: 160px;/*altura da linha*/
+	text-align: right;/*alinhamento do texto a direita*/
+	text-decoration: line-through;/*risco por cima do texto rasurado*/
+	color: red;/*cor do texto vermelho*/
 }
 
 body div.logo{
-	width: 30px;
-	float: right;
+	width: 30px;/*largura 30 px*/
+	float: right;/*encostar a direita*/
 
 }
+
+
+
+div.caixa{
+	border: 1px dashed red;/*rebordo tracejado1 px vermelho*/
+	width: 50%;/*largura 50% da area disponivel*/
+	margin: 50px;/* margem 50 px em cima, 30px de direito e 120 á esquerda*/
+	padding: 30px;/*margem "interna" de 30px em cima direita baixo e esquerda*/
+	float: left;
+}
+
