@@ -26,16 +26,35 @@ h1{
 body div.logo{
 	width: 30px;/*largura 30 px*/
 	float: right;/*encostar a direita*/
+	clear: left;
+
 
 }
 
 
 
 div.caixa{
-	border: 1px dashed red;/*rebordo tracejado1 px vermelho*/
+	border: 1px dashed red;/*rebordo tracejado px vermelho*/
 	width: 50%;/*largura 50% da area disponivel*/
 	margin: 50px;/* margem 50 px em cima, 30px de direito e 120 á esquerda*/
 	padding: 30px;/*margem "interna" de 30px em cima direita baixo e esquerda*/
 	float: left;
+	position: relative;
 }
 
+.bt{
+	position: absolute;
+	right: 5px;
+	top: 20px;
+	width: 10px;
+	height: 10px;
+	background-color: red;
+}
+
+.btright{
+	right:5px;
+}
+
+.btleft{
+	left:5px;
+}
